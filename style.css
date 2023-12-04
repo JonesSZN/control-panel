@@ -175,13 +175,6 @@ nav {
   align-items: center;
   justify-content: space-between;
 }
-@media screen and (max-width: 1120px) {
-  nav {
-    align-items: center;
-    justify-content: center;
-    scale: 50%;
-  }
-}
 
 ul {
   display: flex;
@@ -371,21 +364,6 @@ hr {
   background-color: #f9fafb;
   gap: 20px;
 }
-@media screen and (max-width: 1120px) {
-  body {
-    height: auto;
-    overflow: auto;
-  }
-  .main-content-flex {
-    flex-direction: column;
-  }
-  .main-content-left,
-  .main-content-right {
-    width: 100%;
-    overflow: auto;
-    height: auto;
-  }
-}
 
 .main-right-card {
   display: flex;
@@ -431,4 +409,25 @@ hr {
 .activity-row1 {
   font-weight: bold;
   font-size: 18px;
+}
+
+@media screen and (max-width: 1120px) {
+  body {
+    height: auto;
+    overflow: auto;
+  }
+  .main-content-flex {
+    flex-direction: column;
+  }
+  .main-content-left,
+  .main-content-right {
+    width: 100%;
+    overflow: auto;
+    height: auto;
+  }
+  nav {
+    align-items: center;
+    justify-content: center;
+    scale: 50%;
+  }
 }
